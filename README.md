@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/newsletter-singup-form-with-success-message-react-RHbmuqJihu]
-- Live Site URL: [https://d-sisovic.github.io/Newsletter-Sign-Up/#/]
+- Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-react-RCKKZV-4s0]
+- Live Site URL: [https://d-sisovic.github.io/FAQ-Accordion/]
 
 ## My process
 

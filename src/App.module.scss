@@ -67,9 +67,15 @@
             width: 60rem;
             padding: 4rem;
             height: 56.5rem;
+            border-radius: 1.6rem;
 
             &__heading {
                 margin-bottom: 3.2rem;
+
+                img {
+                    width: 4rem;
+                    height: 4rem;
+                }
             }
         }
     }
