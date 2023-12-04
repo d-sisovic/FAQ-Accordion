@@ -6,3 +6,46 @@
 body {
     font-family: "WorkSans-Regular";
 }
+
+.line {
+    height: 1px;
+    margin: 2rem 0;
+    background: variables.$light-pink;
+}
+
+.title {
+    font-size: 3.2rem;
+    font-family: "WorkSans-Bold";
+    color: variables.$dark-purple;
+}
+
+.accordion__header {
+    font-size: 1.6rem;
+    color: variables.$dark-purple;
+    font-family: "WorkSans-SemiBold";
+}
+
+.accordion__text {
+    font-size: 1.4rem;
+    line-height: 150%;
+    font-weight: "WorkSans-Regular";
+    color: variables.$grayish-purple;
+}
+
+@include breakpoints.mq(tablet) {
+    .line {
+        margin: 2.4rem 0;
+    }
+
+    .title {
+        font-size: 5.6rem;
+    }
+
+    .accordion__header {
+        font-size: 1.8rem;
+    }
+    
+    .accordion__text {
+        font-size: 1.6rem;
+    }
+}

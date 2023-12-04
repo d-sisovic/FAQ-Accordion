@@ -1,0 +1,21 @@
+@use "../styles/variables";
+
+.container {
+    .header {
+        gap: 2.4rem;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: space-between;
+
+        &--pb {
+            padding-bottom: 2.4rem;
+        }
+
+        .accordion__header {
+            &:hover {
+                color: variables.$purple;
+            }
+        }
+    }
+}
