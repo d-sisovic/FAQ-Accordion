@@ -20,14 +20,14 @@ body {
 }
 
 .accordion__header {
+    font-weight: 700;
     font-size: 1.6rem;
+    letter-spacing: -1px;
     color: variables.$dark-purple;
-    font-family: "WorkSans-SemiBold";
 }
 
 .accordion__text {
     font-size: 1.4rem;
-    line-height: 150%;
     font-weight: "WorkSans-Regular";
     color: variables.$grayish-purple;
 }
